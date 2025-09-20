@@ -12,7 +12,7 @@ origins = [
 ]
 
 # Replace this with your actual n8n webhook URL
-N8N_WEBHOOK_URL = "https://uddinhafiz594.app.n8n.cloud/webhook-test/33d531a5-a62a-4504-865d-ea949b8efbd3"
+N8N_WEBHOOK_URL = "https://uddinhafiz594.app.n8n.cloud/webhook/33d531a5-a62a-4504-865d-ea949b8efbd3"
 
 # Input model
 class ArticleRequest(BaseModel):
