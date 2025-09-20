@@ -5,7 +5,11 @@ import requests
 from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
-
+origins = [
+    "http://localhost",
+    "http://127.0.0.1:8000\docs",
+    # Add other origins as needed
+]
 
 # Replace this with your actual n8n webhook URL
 N8N_WEBHOOK_URL = "https://uddinhafiz594.app.n8n.cloud/webhook-test/33d531a5-a62a-4504-865d-ea949b8efbd3"
